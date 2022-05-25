@@ -31,5 +31,11 @@ public class Net {
         return is.readUTF();
     }
 
+    public DataInputStream getInputStream() {
+        return is;
+    }
 
+    public DataOutputStream getOutputStream() {
+        return os;
+    }
 }
